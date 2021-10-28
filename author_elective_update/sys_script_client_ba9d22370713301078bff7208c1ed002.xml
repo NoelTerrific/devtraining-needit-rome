@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt OnLoad Example</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   alert("You have changed the Short description from " + oldValue + " to " + newValue + ".");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-26 17:12:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba9d22370713301078bff7208c1ed002</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>NeedIt OnLoad Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_ba9d22370713301078bff7208c1ed002</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-27 10:54:29</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2e35d4f0db8544100b9d21c40596198c</instance_id>
+        <instance_name>dev94398</instance_name>
+        <name>sys_script_client_ba9d22370713301078bff7208c1ed002</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt OnLoad Example&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   alert("You have changed the Short description from " + oldValue + " to " + newValue + ".");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-26 17:12:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ba9d22370713301078bff7208c1ed002&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt OnLoad Example&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ba9d22370713301078bff7208c1ed002&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-27 10:54:29&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-44462533</payload_hash>
+        <record_name>NeedIt OnLoad Example</record_name>
+        <reverted_from/>
+        <source>846435350713701078bff7208c1ed002</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-27 10:54:29</sys_created_on>
+        <sys_id>03d0a20407eb301078bff7208c1ed01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cc163186e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-27 10:54:29</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4bd0a20493eb3010d6725405dc34951b</update_guid>
+        <update_guid_history>4bd0a20493eb3010d6725405dc34951b:-44462533,ed6f124030eb3010cc2062d334052247:-1533894241,078a9a487bab30106ca14bfc0b373c62:1689820366,5d331a843aab3010ce9869af02f35348:-761244720,2328e148e22b30102c3d8fd5b334b5e2:-901055772,0c3e2a372f13301003508d866bb7534b:1485021299,8c0e66375f133010c9f7ca106cf95b88:1140011543,edfdeaf3e01330108bece07a60bd2499:1485021299,22ed2ef311133010c56d7e6498595d2e:1519106286,7fbdeaf301133010841a20b66c123aaf:-1973210322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-27 11:18:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>ef2328e3d94040e39f1edef8e4fd1f91</sys_id>
+        <sys_metadata>ba9d22370713301078bff7208c1ed002</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt OnLoad Example</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">f8afd6f10793701078bff7208c1ed056</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_ba9d22370713301078bff7208c1ed002</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ba9d22370713301078bff7208c1ed002">03d0a20407eb301078bff7208c1ed01c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-27 11:18:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
